@@ -1,0 +1,56 @@
+#include <iostream>
+# include <stdio.h>
+# include <stdlib.h>
+using namespace std;
+
+struct odds1{
+int i,j,v;
+int odds[4][3];
+};
+
+
+void dump(){
+struct odds1 AA;
+int i,j,v;
+int odds[4][3];
+AA.i=i;
+AA.j=j;
+AA.v=v;
+AA.odds[4][3]=odds[3][4];
+
+for(i=0;i<4;i++){
+for(j=0;j<3;j++){
+odds[i][j]=(i*3)+j+1;
+
+}
+}
+
+//第一題
+for(i=0;i<4;i++){
+for(j=0;j<3;j++){
+printf("%d\n",odds[0][2]);
+printf(\n\n);
+break;
+}
+break;
+}
+//第二題
+for(i=0;i<4;i++){
+for(j=0;j<3;j++){
+odds[2][1]=12;
+printf( "%d\n", odds[0][2]);
+break;
+}
+break;
+}
+
+}
+
+
+
+
+int main(int argc, char** argv) {
+
+dump();
+return 0;
+}
